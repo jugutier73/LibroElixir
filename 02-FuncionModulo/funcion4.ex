@@ -5,7 +5,7 @@ defmodule Saludo do
   Autor(es): Julián Esteban Gutiérrez Posada
              Luisa Fernanda Londoño Celis
              Robinson Pulgarin Giraldo
-  Fecha    : 2025-Nov-10
+  Fecha    : 2025-Nov
   Licencia : GNU GPL v3
   """
 
@@ -24,7 +24,6 @@ defmodule Saludo do
     "Hola mundo"
     |> Util.mostrar_mensaje()
   end
-
 end
 
 Saludo.main()

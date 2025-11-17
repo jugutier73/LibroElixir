@@ -1,6 +1,7 @@
-defmodule Saludo do
+defmodule Util do
   @moduledoc """
-  Programa que muestra un mensaje en la pantalla.
+  Módulo de con todas las funciones de utilidad que se reutilizan en
+  el libro.
 
   Autor(es): Julián Esteban Gutiérrez Posada
              Luisa Fernanda Londoño Celis
@@ -8,20 +9,6 @@ defmodule Saludo do
   Fecha    : 2025-Nov
   Licencia : GNU GPL v3
   """
-
-  @doc """
-  Función principal del programa (el QUÉ)
-
-  ## Ejemplo
-
-    ```elixir
-    Saludo.main()
-    ```
-  """
-  def main do
-    "Hola mundo"
-    |> mostrar_mensaje()
-  end
 
   @doc """
   Función que muestra un mensaje en la pantalla.
@@ -33,7 +20,7 @@ defmodule Saludo do
 
     ```elixir
     "Hola Mundo"
-    |> Saludo.mostrar_mensaje()
+    |> Util.mostrar_mensaje()
     ```
   """
   def mostrar_mensaje(mensaje) do
@@ -41,5 +28,3 @@ defmodule Saludo do
     |> IO.puts()
   end
 end
-
-Saludo.main()

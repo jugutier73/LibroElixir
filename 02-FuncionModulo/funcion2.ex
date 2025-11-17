@@ -1,5 +1,4 @@
 defmodule Saludo do
-
   def main do
     "Hola mundo"
     |> mostrar_mensaje()
@@ -9,7 +8,6 @@ defmodule Saludo do
     mensaje
     |> IO.puts()
   end
-
 end
 
 Saludo.main()
